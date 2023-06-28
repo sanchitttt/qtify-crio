@@ -7,7 +7,9 @@ export default function Home() {
     <>
       <Navbar />
       <HeroBanner />
-     
+      <section className='bg-black  h-[100vh]'>
+        <SongCard title='New Bollywood' src='/1.png' followers={100} />
+      </section>
     </>
   )
 }
